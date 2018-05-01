@@ -15,7 +15,7 @@ function order() {
     var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance
     xmlhttp.open("POST", "/orders");
     xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    xmlhttp.send(JSON.stringify({ "item": "New order registered!", "price": 100, "customer": "Test-Customer" }));
+    xmlhttp.send(JSON.stringify({ "item": "ORDER SUCCESS!", "price": 100, "customer": "NEW CUSTOMER" }));
 
     window.location.href = "/orders";
 }
