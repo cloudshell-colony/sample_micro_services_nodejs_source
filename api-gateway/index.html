@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
   <head>
@@ -6,7 +5,22 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   </head>
 
+
+
 <body>
+
+
+<script>
+function order() {
+    var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance
+    xmlhttp.open("POST", "/orders");
+    xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    xmlhttp.send(JSON.stringify({ "item": "t-shirt", "price": 100, "customer": "Gregor" }));
+
+}
+</script>
+
+
 
 <style type="text/css">
 .custom {
@@ -105,14 +119,25 @@ a:hover, a:active {
 		<div>
 		<img class="node" src="https://nodejs.org/static/images/logo.svg">&nbsp;&nbsp;&nbsp;
 		</div>
-
 		<div>
 		<br><br>
-<span class="custom2"><a href="/orders">Click</a> &nbsp;</span>
-<span class="custom2">to view orders.</span> &nbsp;&nbsp;
+        <span class="custom2"><a  href="#" onclick="order();return false;">Click</a> &nbsp;</span>
+        <span class="custom2">to create a random order.</span> &nbsp;&nbsp;
 
+        </div>
+		<div>
+		<br><br>
+        <span class="custom2"><a href="/orders">Click</a> &nbsp;</span>
+        <span class="custom2">to view orders.</span> &nbsp;&nbsp;
+
+        </div>
 </div>
-</div>
+
 
   </body>
 </html>
+
+
+
+
+
