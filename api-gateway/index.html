@@ -15,8 +15,9 @@ function order() {
     var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance
     xmlhttp.open("POST", "/orders");
     xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    xmlhttp.send(JSON.stringify({ "item": "t-shirt", "price": 100, "customer": "Gregor" }));
+    xmlhttp.send(JSON.stringify({ "item": "New order registered!", "price": 100, "customer": "Test-Customer" }));
 
+    window.location.href = "/orders";
 }
 </script>
 
@@ -121,14 +122,8 @@ a:hover, a:active {
 		</div>
 		<div>
 		<br><br>
-        <span class="custom2"><a  href="#" onclick="order();return false;">Click</a> &nbsp;</span>
-        <span class="custom2">to create a random order.</span> &nbsp;&nbsp;
-
-        </div>
-		<div>
-		<br><br>
-        <span class="custom2"><a href="/orders">Click</a> &nbsp;</span>
-        <span class="custom2">to view orders.</span> &nbsp;&nbsp;
+        <span class="custom2"><a  href="#" onclick="order();">Click</a> &nbsp;</span>
+        <span class="custom2">to test the microservices integration.</span> &nbsp;&nbsp;
 
         </div>
 </div>
