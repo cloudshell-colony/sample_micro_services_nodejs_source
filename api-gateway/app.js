@@ -4,9 +4,15 @@ const app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true})); 
+app.use(express.static(__dirname));
 
 const paymentServiceIp = process.argv[2];
 const orderServiceIp = process.argv[3];
+
+
+app.get('/',function(req,res){
+    res.sendFile('index.html');
+});
 
 app.route('/orders')
     .get(function (req, res) {
