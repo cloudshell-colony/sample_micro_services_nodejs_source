@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd581963-a786-49fb-ac4a-e1057bd1046a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/app.js" afterPath="$PROJECT_DIR$/api-gateway/app.js" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/index.html" afterPath="$PROJECT_DIR$/api-gateway/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,29 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
+            <state relative-caret-position="766">
               <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api-gateway/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1236">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="549">
+              <caret line="129" column="88" lean-forward="true" selection-start-line="129" selection-start-column="88" selection-end-line="129" selection-end-column="88" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2140#2146#0" expanded="true" />
-                <element signature="e#2146#2152#0" expanded="true" />
-                <element signature="e#2152#2158#0" expanded="true" />
-                <element signature="e#2259#2265#0" expanded="true" />
-                <element signature="e#2349#2355#0" expanded="true" />
-                <element signature="e#2355#2361#0" expanded="true" />
+                <element signature="e#2283#2289#0" expanded="true" />
+                <element signature="e#2289#2295#0" expanded="true" />
+                <element signature="e#2295#2301#0" expanded="true" />
+                <element signature="e#2409#2415#0" expanded="true" />
+                <element signature="e#2499#2505#0" expanded="true" />
+                <element signature="e#2505#2511#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +67,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/order-service/app.js" />
-        <option value="$PROJECT_DIR$/api-gateway/index.html" />
         <option value="$PROJECT_DIR$/api-gateway/app.js" />
+        <option value="$PROJECT_DIR$/api-gateway/index.html" />
       </list>
     </option>
   </component>
@@ -194,27 +193,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/index.html">
+    <entry file="file://$PROJECT_DIR$/api-gateway/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1236">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2140#2146#0" expanded="true" />
-            <element signature="e#2146#2152#0" expanded="true" />
-            <element signature="e#2152#2158#0" expanded="true" />
-            <element signature="e#2259#2265#0" expanded="true" />
-            <element signature="e#2349#2355#0" expanded="true" />
-            <element signature="e#2355#2361#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="766">
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/app.js">
+    <entry file="file://$PROJECT_DIR$/api-gateway/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="549">
+          <caret line="129" column="88" lean-forward="true" selection-start-line="129" selection-start-column="88" selection-end-line="129" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2283#2289#0" expanded="true" />
+            <element signature="e#2289#2295#0" expanded="true" />
+            <element signature="e#2295#2301#0" expanded="true" />
+            <element signature="e#2409#2415#0" expanded="true" />
+            <element signature="e#2499#2505#0" expanded="true" />
+            <element signature="e#2505#2511#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
