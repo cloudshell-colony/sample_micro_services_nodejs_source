@@ -10,18 +10,6 @@
 <body>
 
 
-<script>
-function order() {
-    var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance
-    xmlhttp.open("POST", "/orders");
-    xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    xmlhttp.send(JSON.stringify({ "item": "ORDER SUCCESS!", "price": 100, "customer": "NEW CUSTOMER" }));
-
-    window.location.href = "/orders";
-}
-</script>
-
-
 
 <style type="text/css">
 .custom {
@@ -122,7 +110,7 @@ a:hover, a:active {
 		</div>
 		<div>
 		<br><br>
-        <span class="custom2"><a  href="#" onclick="order();">Click</a> &nbsp;</span>
+        <span class="custom2"><a  href="/orders" onclick="order();">Click</a> &nbsp;</span>
         <span class="custom2">to test the microservices integration.</span> &nbsp;&nbsp;
 
         </div>

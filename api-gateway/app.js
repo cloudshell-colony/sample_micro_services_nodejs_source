@@ -16,6 +16,15 @@ app.get('/',function(req,res){
 
 app.route('/orders')
     .get(function (req, res) {
+        var order = {
+            uri: 'http://' + orderServiceIp + '/orders',
+            method: 'POST',
+            json: { item: "ORDER SUCCESS!", price: 100, customer: "NEW CUSTOMER" }
+        };
+        request(order, function(err1, res1, body1){
+            res.json(body1);
+        });
+
         request.get('http://' + orderServiceIp + '/orders').on('response', function(res1) {
             res1.on('data', function(data1) {
                 request.get('http://' + paymentServiceIp + '/transactions').on('response', function(res2) {
@@ -40,15 +49,5 @@ app.route('/orders')
             })
         })
     })
-    .post(function (req, res) {
-        var order = {
-            uri: 'http://' + orderServiceIp + '/orders',
-            method: 'POST',
-            json: req.body
-        };
-        request(order, function(err1, res1, body1){ 
-            res.json(body1);  
-        });
-    });
 
 app.listen(3000);
